@@ -59,6 +59,7 @@ a {
 
 /* Style About Me section*/
 
+/* Style h2 About Me section*/
 h2 {
     display: flex;
     align-items: center;
@@ -67,12 +68,12 @@ h2 {
     font-family: Courgette;
     font-size: 240%;
     padding: 2% 2%;
-    
+    height: 3rem;
 }
 
 .aboutme-h2 {
     display: flex;
-    position: absolute;
+    position: static;
     width: 100%;
     height: auto;
     color: white;
@@ -81,4 +82,26 @@ h2 {
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
+}
+
+/* Style text and image About Me section*/
+
+.aboutme {
+    display: flex;
+    position: static;
+    align-items: center;
+}
+
+.aboutme-text {
+    font-family: Libre Baskerville, sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+    padding: 5% 5% 5% 5%;
+
+}
+.aboutme-image {
+    padding: 5% 5% 5% 5%;
+    
+    
 }
