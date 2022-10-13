@@ -105,7 +105,7 @@ h2 {
 }
 
 
-/* style Gallery h2*/
+/* style Gallery h2 */
 
 h2 {
     display: flex;
@@ -131,4 +131,6 @@ h2 {
     align-items: center;
     flex-wrap: nowrap;
 }
+
+/* Style Gallery photos */
 
