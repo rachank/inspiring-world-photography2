@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
+    
 }
 
 body {
@@ -53,6 +55,30 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
 
+/* Style About Me section*/
 
+h2 {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-family: Courgette;
+    font-size: 240%;
+    padding: 2% 2%;
+    
+}
+
+.aboutme-h2 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
 }
