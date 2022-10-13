@@ -104,3 +104,31 @@ h2 {
     padding: 5% 5% 5% 5%;  
 }
 
+
+/* style Gallery h2*/
+
+h2 {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-family: Courgette;
+    font-size: 240%;
+    padding: 2% 2%;
+    height: 3rem;
+}
+
+.gallery-h2 {
+    display: flex;
+    position: static;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
