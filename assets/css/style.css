@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
+    overflow-x: hidden;
     
 }
 
@@ -92,22 +93,22 @@ h2 {
     flex: wrap;
     position: static;
     align-items: center;
+    justify-content: space-around;
     max-width: 1400px;
-    justify-content: space-evenly;
+    
 }
 
 .aboutme-text {
+  
     font-family: Libre Baskerville, sans-serif;
     font-weight: 400;
     font-size: 120%;
     padding: 5% 5% 5% 5%;
-
+    
 }
 .aboutme-image {
     padding: 5% 5% 5% 5%;  
-    object-fit: cover;
-
-    
+    object-fit: cover; 
 }
 
 
@@ -166,7 +167,7 @@ h3 {
 
 .image-gallery-spring-summer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     background-color: black;
     background-size: cover;
@@ -186,7 +187,7 @@ h3 {
     background-repeat: no-repeat;
 }
 .image-gallery-fall-winter > li {
-    flex-basis: 50%;
+    flex-basis: 30%;
 }
 .image {
     object-fit: cover;
