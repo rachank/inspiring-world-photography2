@@ -201,6 +201,33 @@ h3 {
     padding: 20px;
 }
 
+/* Contact Section */
+
+/* Contact Header*/
+
+.contact-h2 {
+    display: flex;
+    position: static;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+/* Contact Image */
+
+
+
+
+/* Contact Form */
+
+
+
 
 /* Footer */
 
@@ -214,6 +241,8 @@ footer {
     margin: 2%;
     padding: 8%;
     font-size: 130%;
+    color: black;
+
 }
 .socialmedia > li {
     display: inline;
