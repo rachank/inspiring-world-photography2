@@ -161,14 +161,35 @@
             <li><img class="image" src="assets/images/fallwinter/18bc-interior-mtns.jpg"
                     alt="BC Interior Winter Mountain Landscape">
             </li>
-        </ul>t
-
+        </ul>
     </section>
     <section class="contact">
         <h2 class="contact-h2">Contact</h2>
-        
+        <div class="contact-image">
 
-            
+            <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
+                <label for="fname">Your First Name</label>
+                <br>
+                <input id="fname" type="text" class="text-entered" name="first_name" required>
+                <br>
+                <label for="lname">Your Last Name</label>
+                <br>
+                <input id="lname" type="text" class="text-entered" name="last_name" required>
+                <br>
+                <label for="email">Your Email Address</label>
+                <br>
+                <input id="email" type="email" class="text-entered" name="email_address" required>
+                <br>
+                <label for="message">Your Message</label>
+                <br>
+                <textarea name="message" class="message-entered"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
+
 
 
     </section>
@@ -185,8 +206,7 @@
             </li>
         </ul>
     </footer>
-    <!-- Font Awesome Script -->
-    
+
 </body>
 
 </html>

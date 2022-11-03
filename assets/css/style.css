@@ -108,7 +108,7 @@ h2 {
 }
 .aboutme-image {
     padding: 5% 5% 5% 5%;  
-    object-fit: cover; 
+    object-fit: contain; 
 }
 
 
@@ -221,14 +221,47 @@ h3 {
 
 /* Contact Image */
 
-
-
+.contact-image {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-image: url(../images/glaciermountain-contactform.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 /* Contact Form */
 
+.contact-form {
+    position: absolute;
+    right: 20%;
+    margin: 20px;
+    max-width: 300px;
+    padding: 15px;
+    background: transparent;
+    border-radius: 6px;
+    padding: 10px;
+}
+input[type=text] input[type=email], textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid;
+    border-color: aliceblue;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    background: white;
+    resize: vertical;
+} 
+input[submit] {
+    background-color: white;
+    padding: 12px 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
 
 
-
+ 
 /* Footer */
 
 footer {
@@ -238,8 +271,8 @@ footer {
     text-align: center;
 }
 .socialmedia {
-    margin: 2%;
-    padding: 8%;
+    margin: 1%;
+    padding: 1%;
     font-size: 130%;
     color: black;
 
