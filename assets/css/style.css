@@ -201,3 +201,20 @@ h3 {
     padding: 20px;
 }
 
+
+/* Footer */
+
+footer {
+    height: 130px;
+}
+.socialmedia {
+    text-align: center;
+}
+.socialmedia {
+    margin: 2%;
+    padding: 8%;
+    font-size: 130%;
+}
+.socialmedia > li {
+    display: inline;
+}
