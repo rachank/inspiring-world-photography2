@@ -166,14 +166,18 @@ h3 {
 }
 
 .image-gallery-spring-summer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.image-gallery-spring-summer > li {
+    flex-basis: 30%;
+}
 
 
 .image-gallery-fall-winter {
@@ -195,7 +199,5 @@ h3 {
     height: 100%;
     vertical-align: middle;
     padding: 20px;
-    
-    
-
 }
+
