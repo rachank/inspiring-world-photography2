@@ -89,8 +89,7 @@ h2 {
 /* Style text and image About Me section*/
 
 .aboutme {
-    display: flex;
-    flex: wrap;
+    display: inline;
     position: static;
     align-items: center;
     justify-content: space-around;
@@ -99,15 +98,13 @@ h2 {
 }
 
 .aboutme-text {
-  
     font-family: Libre Baskerville, sans-serif;
     font-weight: 400;
     font-size: 120%;
-    padding: 5% 5% 5% 5%;
-    
+    padding: 5%;   
 }
 .aboutme-image {
-    padding: 5% 5% 5% 5%;  
+    padding: 5%;  
     object-fit: contain; 
 }
 
