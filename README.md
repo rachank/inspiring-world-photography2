@@ -1,108 +1,137 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Inspiring World Photography
 
-Welcome rachank,
+The Inspiring World Photography website is a nature photography portfolio of Rachel Hankai. Users on the page can enjoy the various photographs, get inpiration for their own phtography and make inquiries as to any further information they may want.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users will be able to contact the photographer with any requests or further questions regarding any of the photographs. They can also find out a little bit about the photographer's background and creativity. This site could be used by any other photographer looking for inpiration, interest in any of the prints or others just wanting to enjoy the photographs.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<img width="985" alt="Screenshot 2022-11-04 at 17 02 15" src="https://user-images.githubusercontent.com/110794317/200021726-3502782c-ccee-4792-bffe-44d86540f677.png">
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Navigation
 
-`python3 -m http.server`
+* Positioned at the top of the page, with the main title also the home page link.
+* Remaining navigation links are situated to the right, About Me, Gallery, and Contact with links to the various corresponding sections of the page. The different sections of the page are easy to find.
+* The font is a more stylish and creative flow that suits the subject of photography and nature alike.
+* The colors used were simple black and white to enhance the bolder colors within the images throughout the website.
 
-A blue button should appear to click: _Make Public_,
+<img width="1493" alt="Screenshot 2022-11-04 at 17 04 03" src="https://user-images.githubusercontent.com/110794317/200022166-7495eb53-24ac-4b63-8e6f-0ed938c531da.png">
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### The Header
 
-A blue button should appear to click: _Make Public_,
+* The header shows the name of the photography company in a bold white across a black background, centered just above the landscape hero image. 
 
-Another blue button should appear to click: _Open Browser_.
+<img width="1804" alt="Screenshot 2022-11-04 at 17 05 37" src="https://user-images.githubusercontent.com/110794317/200022473-021d762f-22d0-4f02-af76-3b430775ce06.png">
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+### The Hero Image
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* The hero image is very noticable with a dramatic lanscape scene which draws the viewers attention in with the contrast of the clouds and the mountains.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+<img width="927" alt="Screenshot 2022-11-04 at 17 07 19" src="https://user-images.githubusercontent.com/110794317/200022758-9a077f5c-1160-4dd6-80ab-afb3befb4509.png">
 
-## Release History
+### About Me Section
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* This section introduces the user to the photographer, some of her history and what inspires her creativity.
+* This section also invites the user to ask questions or make inquiries about the photographs.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Gallery Section
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* This section holds all of the images for both the spring and summer gallery and then the following fall and winter gallery.
+* The photos have been arranged in rows of 3, considering featured colors and subject matter to enhance overall asthetics. 
+* The images have also been arranged in order to maintain their original shapes with a generous black space between the images to further accentuate the colors.
+* The order of subject matter with the images naturally flows through the seasons, to create it's own story board. 
+* Note: More photos are actually listed on the page
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ 
+<img width="878" alt="Screenshot 2022-11-04 at 17 08 45" src="https://user-images.githubusercontent.com/110794317/200023021-2d702657-8841-4f6d-bd6f-e0f89c1717a8.png">
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<img width="992" alt="Screenshot 2022-11-04 at 17 10 05" src="https://user-images.githubusercontent.com/110794317/200023303-e6a639ad-549a-4309-8b6d-65e1a0ea84a2.png">
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Contact Section
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* This section contains another large landscape photo specifically highlighting the suns rays pointing towards the fillable form.
+* This section contains a form with which the user can contact the photographer with any questions or comments with regards to the images posted on the site.
+* The form collects the user's name. email address and and additional questions or comments the user may have.
+* The contact section also flows into the footer which gives the user the ability to access social media icons to find the photographer on facebook, twitter and instagram.
+* The validation to the submitted contact form is also generated once a user has made a submission.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<img width="933" alt="Screenshot 2022-11-04 at 17 12 24" src="https://user-images.githubusercontent.com/110794317/200023778-e5125e2d-f827-4a94-990c-b25e6ab83e28.png">
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<img width="449" alt="Screenshot 2022-11-04 at 15 15 34" src="https://user-images.githubusercontent.com/110794317/200023960-f3a295ea-b970-4227-8b44-5ef51c83e670.png">
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+### Testing
 
-## FAQ about the uptime script
+* I tested this page to ensure that it functions on different browers: Chrome, Firefox, Safari.
+* Note: I used Chrome on a mac to build the site.
+* I used the devtools device toolbar to confirm that this site is respoinsive, looks good and functions correctly on all standard screen sizes.
+* I confirmed that all links on the navigation tool bar are all ledgible and easy to understand.
+* I have confirmed that the form works and requires entry into necessary fields and will only accept email in the email field and the submit button works.
+* I have confirmed that the validation message is produced containing the header and footer along with a validation message to the user, once the submit button is pushed.
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Bugs
 
-**How will this affect me?**
+Solved bugs:
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* I had problems seeing the social media icons and accidentally set the color to white on a white background. I fixed this by making the background black.
+* I did not have an original page to validate the form, so created one.
+* Had a 405 and 501 issue come up when the form was submitted and solved this by setting the method of POST to small letters instead of capitalized.
+* Forgot to add comments in the HTML - so added them in.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Validator Testing
 
-**So….?**
+* HTML
+    * One error was returned - but deemed unimportant as section does have heading. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+    <img width="1066" alt="Screenshot 2022-11-04 at 17 18 05" src="https://user-images.githubusercontent.com/110794317/200024890-f699c1fc-4e85-4e4e-8f7f-8c8e60f95f8f.png">
 
-**Can I opt out?**
+* CSS
+    * No errors found.
+<img width="1063" alt="Screenshot 2022-11-04 at 17 19 15" src="https://user-images.githubusercontent.com/110794317/200025092-e468ece4-b62c-4a20-b0b8-7b87d92ae223.png">
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* Accessibility
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+    * Accessibility was fine, but performance was not good. Likely due to the larger sizes of the images so that they also apeareed very clear on larger screens. 
 
-**Anything more?**
+    <img width="695" alt="Screenshot 2022-11-04 at 17 23 05" src="https://user-images.githubusercontent.com/110794317/200025857-cc83373a-36ec-492d-a05c-7d0b2d2566ed.png">
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+* Unfixed Bugs
 
-Happy coding!
+    * None - except for the performance of the site due to the larger sizes of the images - would try to adjust this in a future fix
+
+### Credits
+
+* the code to create the social media links was taken in part from the CI Love Running Project.
+
+* Assistance and suggestions from Mentor - Rohit Sharma - with suggestions to correct footer icons, form navigation to seperate page, HTML comments, centering aboutme image.
+
+* Assistance from tutoring to deal with the 501/405 issue with the validation reply form.
+
+* Multiple tutoring sites conferred on mulitple subjects in HTML and CSS:
+    * W3schools.com
+    * CSS-Tricks.com
+    * freeCodeCamp
+    * Quackit.com
+    * Jimdo.com
+
+### Media
+ * All images are my own photographs
+
+
+
+
+
+
+
+
