@@ -263,17 +263,21 @@ input[submit] {
 
 footer {
     height: 130px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .socialmedia {
     text-align: center;
 }
 .socialmedia {
-    margin: 1%;
-    padding: 1%;
-    font-size: 130%;
-    color: black;
+    font-size: 160%;
+    color: white;
+   
 
 }
 .socialmedia > li {
     display: inline;
+    padding: 2%;
+    margin: 2%
 }
