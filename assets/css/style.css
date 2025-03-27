@@ -291,32 +291,26 @@ footer {
     #pagename h1 {
         font-size: 250%;
     }
-
     .hero-image {
         height: 450px;
         background-position: center center;
     }
-
     .aboutme-text {
         font-size: 100%;
         padding: 4%;
     }
-
     .aboutme-image {
         max-width: 60%;
         margin: 0 auto;
     }
-    
     .image-gallery-spring-summer > li, 
-    .image-gallery-fall-winter < li {
-        flex-basis: 70%;
+    .image-gallery-fall-winter > li {
+        flex-basis: 50%;
     }
-
     .image (
         object-fit: contain;
         height: auto;
     )
-
     footer {
         height: 90px;
     }
@@ -328,22 +322,24 @@ footer {
     #pagename h1 {
         font-size: 170%;
     }
-
     .hero-image {
         height: 280px;
         background-position: center center;
     }
-
     .aboutme-text {
         font-size: 85%;
         padding: 2%;
     }
-
     .aboutme-image {
         max-width: 45%;
         margin: 0 auto;
     }
-    
-    
+    .image-gallery-spring-summer > li, 
+    .image-gallery-fall-winter > li {
+        flex-basis: 100%;
+    }
+    footer {
+        height: 80px;
+    }
 }
 
