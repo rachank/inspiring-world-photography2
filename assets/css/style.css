@@ -322,3 +322,28 @@ footer {
     }
 }
 
+/* For devices with screen size less than 500px */
+@media (max-width: 500px) {
+
+    #pagename h1 {
+        font-size: 170%;
+    }
+
+    .hero-image {
+        height: 280px;
+        background-position: center center;
+    }
+
+    .aboutme-text {
+        font-size: 85%;
+        padding: 2%;
+    }
+
+    .aboutme-image {
+        max-width: 45%;
+        margin: 0 auto;
+    }
+    
+    
+}
+
