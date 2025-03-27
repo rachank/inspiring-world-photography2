@@ -4,6 +4,8 @@ The Inspiring World Photography website is a nature photography portfolio of Rac
 
 Users will be able to contact the photographer with any requests or further questions regarding any of the photographs. They can also find out a little bit about the photographer's background and creativity. This site could be used by any other photographer looking for inpiration, interest in any of the prints or others just wanting to enjoy the photographs.
 
+[View the live project here.](https://rachank.github.io/inspiring-world-photography2/)
+
 <img width="985" alt="Screenshot 2022-11-04 at 17 02 15" src="https://user-images.githubusercontent.com/110794317/200021726-3502782c-ccee-4792-bffe-44d86540f677.png">
 
 ## Features
@@ -109,6 +111,16 @@ Solved bugs:
 * Unfixed Bugs
 
     * None - except for the performance of the site due to the larger sizes of the images - would try to adjust this in a future fix
+
+### Deployment
+
+This site was deployed to GitHub pages and the steps to deploy are as follows:
+- In the GitHub respository navigate to the settings tab in the top right hand corner.
+- In the 'Code and Automation' section of the sidebar, click 'Pages'.
+- To see the published site, under 'GitHub Pages', click on 'Visit site'.
+
+[View the live project here.](https://github.com/rachank/inspiring-world-photography2.git)
+
 
 ### Credits
 
