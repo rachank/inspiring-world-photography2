@@ -27,6 +27,11 @@ Users will be able to contact the photographer with any requests or further ques
 
 <img width="1804" alt="Screenshot 2022-11-04 at 17 05 37" src="https://user-images.githubusercontent.com/110794317/200022473-021d762f-22d0-4f02-af76-3b430775ce06.png">
 
+### The Favicon
+
+- A favicon was designed with the same font as used in the titles in the project, Courgette, from Favicon.io to design this unique favicon.
+
+![alt text](assets/images/favicon-inspiring-world-photography.png)
 
 ### The Hero Image
 
