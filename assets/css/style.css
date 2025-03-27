@@ -261,7 +261,6 @@ input[submit] {
 }
 
 
- 
 /* Footer */
 
 footer {
@@ -276,11 +275,39 @@ footer {
 .socialmedia {
     font-size: 160%;
     color: white;
-   
-
 }
 .socialmedia > li {
     display: inline;
     padding: 2%;
     margin: 2%
+}   
+
+
+/* Media queries */
+
+/* For devices with screen size less than 800px */
+@media (max-width: 800px) {
+
+    #pagename h1 {
+        font-size: 250%;
+    }
+
+    .hero-image {
+        height: 450px;
+        background-position: center center;
+    }
+
+    .aboutme-text {
+        font-size: 100%;
+        padding: 4%;
+    }
+
+    .aboutme-image {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+
+
+
+
 }
