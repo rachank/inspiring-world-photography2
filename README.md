@@ -6,7 +6,8 @@ Users will be able to contact the photographer with any requests or further ques
 
 [View the live project here.](https://rachank.github.io/inspiring-world-photography2/)
 
-<img width="985" alt="Screenshot 2022-11-04 at 17 02 15" src="https://user-images.githubusercontent.com/110794317/200021726-3502782c-ccee-4792-bffe-44d86540f677.png">
+![image of website on various size screens - Am I Responsive](assets/images/screenshot-2025-03-27-at-04-56-55.png)
+
 
 ## Features
 
