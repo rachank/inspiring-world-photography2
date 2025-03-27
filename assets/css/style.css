@@ -303,9 +303,19 @@ footer {
     }
 
     .aboutme-image {
-        max-width: 75%;
+        max-width: 60%;
         margin: 0 auto;
     }
+    
+    .image-gallery-spring-summer > li, 
+    .image-gallery-fall-winter < li {
+        flex-basis: 70%;
+    }
+
+    .image (
+        object-fit: contain;
+        height: auto;
+    )
 
 
 
