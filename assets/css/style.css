@@ -252,13 +252,25 @@ input[type=text], input[type=email], textarea {
     background: white;
     resize: vertical;
 } 
+
+/*
+.submit-button {
+    background-color: white;
+    font-family: Libre Baskerville, sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    padding: 12px 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+    */
+
 input[submit] {
     background-color: white;
     padding: 12px 15px;
     border-radius: 2px;
     cursor: pointer;
-}
-
+} 
 
 /* Footer */
 
