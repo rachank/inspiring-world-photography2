@@ -136,7 +136,7 @@ Solved bugs:
 
 * Accessibility
 
-    * Accessibility was good, and performance is now better than previous results, though with room for improvement. Likely due to the larger sizes of the images so that they also apeareed very clear on larger screens. 
+    * Accessibility, Best Practices and SEO were good, and performance is now better than previous results, though with room for improvement. Likely due to the larger sizes of the images so that they also appear very clear on larger screens. 
 
     ![image of lighthouse testing results](assets/images/lighthouse-test-results.png)
 
