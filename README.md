@@ -75,21 +75,21 @@ Users will be able to contact the photographer with any requests or further ques
 
 ### Technologies Used
 
-###Languages Used
+### Languages Used
 
-*[HTML5](https://en.wikipedia.org/wiki/HTML5#:~:text=HTML5%20(Hypertext%20Markup%20Language%205,as%20the%20HTML%20Living%20Standard.)
-*[CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5#:~:text=HTML5%20Hypertext%20Markup%20Language%205,as%20the%20HTML%20Living%20Standard.)
+* [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
 
 ### Frameworks, Programs and Libraries Used
 
-*[Google Fonts](https://fonts.google.com/): used to import the Courgette and Baskerville fonts used.
-*[GitHub](https://github.com/): is used as the respository for the projects code.
-*[Vscode](https://code.visualstudio.com): used as the code editor.
-*Apple Photos: used to make all edits to images used.
-*[Favicon Generator](https://favicon.io): used to generate the unique favicon for the site.
-*[Am I Responsive](https://ui.dev/amiresponsive): used to check the responsiveness of the site.
-*[W3C HTML Validator](https://validator.w3.org/): used to check for HTML errors.
-*[W3C CSS Validator](https://jigsaw.w3.org/css-validator/): used to check for CSS errors.
+* [Google Fonts](https://fonts.google.com/): used to import the Courgette and Baskerville fonts used.
+* [GitHub](https://github.com/): is used as the respository for the projects code.
+* [Vscode](https://code.visualstudio.com): used as the code editor.
+* Apple Photos: used to make all edits to images used.
+* [Favicon Generator](https://favicon.io): used to generate the unique favicon for the site.
+* [Am I Responsive](https://ui.dev/amiresponsive): used to check the responsiveness of the site.
+* [W3C HTML Validator](https://validator.w3.org/): used to check for HTML errors.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): used to check for CSS errors.
 
 
 ### Testing
@@ -118,7 +118,7 @@ Solved bugs:
 * Added Test Case chart, listing a comprehensive list of tests undertaken with expected outcomes.
 * Added media queries to improve UX for all screen sizes.
 * Added a favicon for the site.
-* Added a technologies used section.
+* Added a Technologies Used section.
 
 
 ### Validator Testing
@@ -196,11 +196,11 @@ This site was deployed to GitHub pages and the steps to deploy are as follows:
 * Assistance from tutoring to deal with the 501/405 issue with the validation reply form.
 
 * Multiple tutoring sites conferred on mulitple subjects in HTML and CSS:
-    * W3schools.com
-    * CSS-Tricks.com
-    * freeCodeCamp
-    * Quackit.com
-    * Jimdo.com
+    * [W3schools.com](https://www.w3schools.com/)
+    * [CSS-Tricks.com](https://css-tricks.com/)
+    * [freeCodeCamp](https://www.freecodecamp.org/)
+    * [Quackit.com](https://www.quackit.com/)
+    * [Jimdo.com](https://www.jimdo.com/)
 
 #### More Recently
 
