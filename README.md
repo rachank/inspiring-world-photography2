@@ -94,7 +94,13 @@ Solved bugs:
 * Had a 405 and 501 issue come up when the form was submitted and solved this by setting the method of POST to small letters instead of capitalized.
 * Forgot to add comments in the HTML - so added them in.
 
+### Additional Bugs and Updates Made
 
+* Completely resolved 405 error issue when submitting form by making corrections to HTML code, removing the a tags from the submit input section, creating a submit button with suitable styling, and adding in the method of GET and action of contactform.html.
+* Added instructions for deployment and cloning the respository
+* Added Test Case chart listing a comprehensive list of tests undertaken with expected outcomes.
+* Added media queries to improve UX for all screen sizes.
+* Added a favicon for the site.
 
 
 ### Validator Testing
