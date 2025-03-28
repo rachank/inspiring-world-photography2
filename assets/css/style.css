@@ -344,8 +344,9 @@ footer {
     .image-gallery-fall-winter > li {
         flex-basis: 100%;
     }
-    #thank-you-message {
-        font-size: em;
+    .thank-you-message {
+        font-size: .8em;
+        padding: 5px;
     }
 
     footer {
