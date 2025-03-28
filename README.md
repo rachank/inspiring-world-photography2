@@ -29,7 +29,7 @@ Users will be able to contact the photographer with any requests or further ques
 
 ### The Favicon
 
-- A favicon was designed with the same font as used in the titles in the project, Courgette, from Favicon.io to design this unique favicon.
+- A favicon was designed with the same font as used in the title headers in the project, Courgette, from Favicon.io to design this unique favicon.
 
 ![alt text](assets/images/favicon-inspiring-world-photography.png)
 
@@ -49,7 +49,7 @@ Users will be able to contact the photographer with any requests or further ques
 ### Gallery Section
 
 * This section holds all of the images for both the spring and summer gallery and then the following fall and winter gallery.
-* The photos have been arranged in rows of 3, considering featured colors and subject matter to enhance overall asthetics. 
+* The photos have been arranged in rows of 3, considering featured colors and subject matter to enhance overall asthetics. For smaller screen sizes the photo columns have been reduced, as appropriate, to display the image content more clearly.
 * The images have also been arranged in order to maintain their original shapes with a generous black space between the images to further accentuate the colors.
 * The order of subject matter with the images naturally flows through the seasons, to create it's own story board. 
 * Note: More photos are actually listed on the page
@@ -60,15 +60,14 @@ Users will be able to contact the photographer with any requests or further ques
 <img width="992" alt="Screenshot 2022-11-04 at 17 10 05" src="https://user-images.githubusercontent.com/110794317/200023303-e6a639ad-549a-4309-8b6d-65e1a0ea84a2.png">
 
 
-
-
 ### Contact Section
 
 * This section contains another large landscape photo specifically highlighting the suns rays pointing towards the fillable form.
 * This section contains a form with which the user can contact the photographer with any questions or comments with regards to the images posted on the site.
-* The form collects the user's name. email address and and additional questions or comments the user may have.
+* The form collects the user's name, email address and additional questions or comments the user may have.
 * The contact section also flows into the footer which gives the user the ability to access social media icons to find the photographer on facebook, twitter and instagram.
 * The validation to the submitted contact form is also generated once a user has made a submission.
+
 
 <img width="933" alt="Screenshot 2022-11-04 at 17 12 24" src="https://user-images.githubusercontent.com/110794317/200023778-e5125e2d-f827-4a94-990c-b25e6ab83e28.png">
 
@@ -96,6 +95,8 @@ Solved bugs:
 * Forgot to add comments in the HTML - so added them in.
 
 
+
+
 ### Validator Testing
 
 * HTML
@@ -112,6 +113,32 @@ Solved bugs:
     * Accessibility was fine, but performance was not good. Likely due to the larger sizes of the images so that they also apeareed very clear on larger screens. 
 
     <img width="695" alt="Screenshot 2022-11-04 at 17 23 05" src="https://user-images.githubusercontent.com/110794317/200025857-cc83373a-36ec-492d-a05c-7d0b2d2566ed.png">
+
+
+
+### Test Cases and Results
+
+* The table below details the test cases that were used and their corresponding results.
+
+| Test Label                    | Test Action                                                                                                                                            | Expected Result                                                                                                                                                                                                                                      | Test Outcome |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| Navigation - Top Menu         | Click on each navigation section, About Me, Gallery, Contact                                                                                           | Links work correctly to take the user to each corresponding section of the page                                                                                                                                                                      | PASS         |
+| UX - Main Hero Image          | On the Home page, visually check that the image is positioned well                                                                                     | Image is appropriate size and position                                                                                                                                                                                                               | PASS         |
+| Navigation - Social Media     | Click on each individual social media link in the footer of the page                                                                                   | Links work correctly to take the user to each corresponding social media home page                                                                                                                                                                   | PASS         |
+| UX - Main title and Top Menu  | Visually check text for positioning and readability                                                                                                    | All text is visible and appropriately positioned and text sizing and font are legible                                                                                                                                                                | PASS         |
+| UX - About Me Image           | Visually check that the image is positioned well, and sized correctly                                                                                  | Image is appropriate size and position                                                                                                                                                                                                               | PASS         |
+| About Me - Text               | Visually check that the text is legible and sized correctly                                                                                            | All text is visible and appropriately positioned and text sizing and font are legible                                                                                                                                                                | PASS         |
+| UX - Headings of all sections | Visually check that headings of each section, are appropriately sized, legible and centered                                                            | All text is visible and appropriately positioned and text sizing and font are legible                                                                                                                                                                | PASS         |
+| UX - Gallery Images           | Visually check that all images are positioned for correct spacing, order, and sizing for best visual affect                                            | All images are visible and well positioned and sized appropriately for visual impact and maintain order                                                                                                                                              | PASS         |
+| UX - Contact Image and Form   | Visually check that contact image and form are well positioned and sized for functionality and visual affect                                           | The Contact image and form are well positioned for both functionality and visual affect                                                                                                                                                              | PASS         |
+| Form - First Name input check | In the Contact section, attempt to Submit message without entering First Name.                                                                         | User is prompted to Please fill out this field and form is not submitted                                                                                                                                                                             | PASS         |
+| Form - Last Name input check  | In the Contact section, attempt to Submit message without entering Last Name.                                                                          | User is prompted to Please fill out this field and form is not submitted                                                                                                                                                                             | PASS         |
+| Form - Email input check      | In the Contact section, attempt to Submit message without entering Email correctly.                                                                    | User is prompted to Please include the '@' sign in the email address, shows the input and what is missing and the form is not submitted                                                                                                              | PASS         |
+| Form - Message area           | In the Contact section, in the Message area, add comments or not before submitting the form.                                                           | Form submits properly whether the Message area is completed or not.                                                                                                                                                                                  | PASS         |
+| Form - Submission             | In the Contact section, complete the form input sections and click the Submit button.                                                                  | Form is successfully submitted with a new window, and Message Confirmation thanking the user for their inquiries.                                                                                                                                    | PASS         |
+| UX - Message Confirmation     | Visually check text for positioning and readability                                                                                                    | All text is visible and appropriately positioned and text sizing and font are legible                                                                                                                                                                | PASS         |
+| UX - Footer                   | Visually check that margins and Social media links are visible and positioned well                                                                     | Margins and Social media links are visible and positioned well for visual affect                                                                                                                                                                     | PASS         |
+| UX - Responsiveness           | Repeat all of the above tests for various screen sizes, for desktop 3440x1297, laptop1920x1080, tablets 1024x1366 and 768x1024 and smartphone 360x640. | Verify that all expected above outcomes for each individual test matches the original expected outcomes. Screens should resize so that text, images, form fields, buttons, remain visible without overlap and positioned for maximum visual affects. | PASS         |
 
 
 * Unfixed Bugs
