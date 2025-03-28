@@ -98,7 +98,7 @@ Solved bugs:
 
 * Completely resolved 405 error issue when submitting form by making corrections to HTML code, removing the a tags from the submit input section, creating a submit button with suitable styling, and adding in the method of GET and action of contactform.html.
 * Added instructions for deployment and cloning the respository
-* Added Test Case chart listing a comprehensive list of tests undertaken with expected outcomes.
+* Added Test Case chart, listing a comprehensive list of tests undertaken with expected outcomes.
 * Added media queries to improve UX for all screen sizes.
 * Added a favicon for the site.
 
@@ -108,18 +108,19 @@ Solved bugs:
 * HTML
     * One error was returned - but deemed unimportant as section does have heading. 
 
-    <img width="1066" alt="Screenshot 2022-11-04 at 17 18 05" src="https://user-images.githubusercontent.com/110794317/200024890-f699c1fc-4e85-4e4e-8f7f-8c8e60f95f8f.png">
+    ![image of HTML testing results](assets/images/html-test-results.png)
+    
 
 * CSS
     * No errors found.
-<img width="1063" alt="Screenshot 2022-11-04 at 17 19 15" src="https://user-images.githubusercontent.com/110794317/200025092-e468ece4-b62c-4a20-b0b8-7b87d92ae223.png">
+
+     ![image of CSS testing results](assets/images/css-test-results.png)
 
 * Accessibility
 
-    * Accessibility was fine, but performance was not good. Likely due to the larger sizes of the images so that they also apeareed very clear on larger screens. 
+    * Accessibility was good, and performance is now better than previous results, though with room for improvement. Likely due to the larger sizes of the images so that they also apeareed very clear on larger screens. 
 
-    <img width="695" alt="Screenshot 2022-11-04 at 17 23 05" src="https://user-images.githubusercontent.com/110794317/200025857-cc83373a-36ec-492d-a05c-7d0b2d2566ed.png">
-
+    ![image of lighthouse testing results](assets/images/lighthouse-test-results.png)
 
 
 ### Test Cases and Results
