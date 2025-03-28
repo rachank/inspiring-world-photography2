@@ -121,12 +121,19 @@ Solved bugs:
 ### Deployment
 
 This site was deployed to GitHub pages and the steps to deploy are as follows:
-- In the GitHub respository navigate to the settings tab in the top right hand corner.
-- In the 'Code and Automation' section of the sidebar, click 'Pages'.
+
+- In the GitHub respository navigate to the settings tab in the top menu, on the right side of it.
+- In the 'Code and Automation' section of the left sidebar, click 'Pages' in the left hand menu.
 - To see the published site, under 'GitHub Pages', click on 'Visit site'.
+- All changes pushed to the master branch will execute and update on the live project.
 
 [View the live project here.](https://github.com/rachank/inspiring-world-photography2.git)
 
+### To Clone The Repository
+
+- Go to the following repository on Github: https://rachank.github.io/inspiring-world-photography2/
+- Click on the green 'Code' button on the right of the screen, and click on HTTPs and copy the link there.
+- Navigate to where you want to run the repository, and in the terminal run the following command: "git clone https://rachank.github.io/inspiring-world-photography2/" and then press enter and this will begin the clone process.
 
 ### Credits
 
