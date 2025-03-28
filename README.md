@@ -73,6 +73,23 @@ Users will be able to contact the photographer with any requests or further ques
 
 <img width="449" alt="Screenshot 2022-11-04 at 15 15 34" src="https://user-images.githubusercontent.com/110794317/200023960-f3a295ea-b970-4227-8b44-5ef51c83e670.png">
 
+### Technologies Used
+
+###Languages Used
+
+*HTML5
+*CSS3
+
+### Frameworks, Programs and Libraries Used
+
+*[Google Fonts](https://fonts.google.com/): used to import the Courgette and Baskerville fonts used.
+*[GitHub](https://github.com/): is used as the respository for the projects code.
+*[Vscode](https://code.visualstudio.com): used as the code editor.
+*Apple Photos: used to make all edits to images used.
+*[Favicon Generator](https://favicon.io): used to generate the unique favicon for the site.
+*[Am I Responsive](https://ui.dev/amiresponsive): used to check the responsiveness of the site.
+*[W3C HTML Validator](https://validator.w3.org/): used to check for HTML errors.
+*[W3C CSS Validator](https://jigsaw.w3.org/css-validator/): used to check for CSS errors.
 
 
 ### Testing
@@ -101,6 +118,7 @@ Solved bugs:
 * Added Test Case chart, listing a comprehensive list of tests undertaken with expected outcomes.
 * Added media queries to improve UX for all screen sizes.
 * Added a favicon for the site.
+* Added a technologies used section.
 
 
 ### Validator Testing
