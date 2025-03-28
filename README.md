@@ -77,8 +77,8 @@ Users will be able to contact the photographer with any requests or further ques
 
 ###Languages Used
 
-*HTML5
-*CSS3
+*[HTML5](https://en.wikipedia.org/wiki/HTML5#:~:text=HTML5%20(Hypertext%20Markup%20Language%205,as%20the%20HTML%20Living%20Standard.)
+*[CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
 
 ### Frameworks, Programs and Libraries Used
 
