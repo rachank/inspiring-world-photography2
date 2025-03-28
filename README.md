@@ -143,6 +143,10 @@ This site was deployed to GitHub pages and the steps to deploy are as follows:
     * Quackit.com
     * Jimdo.com
 
+#### More Recently
+
+* Assistance and suggestions from my Mentor - Brian Macharia - with further suggestions to enhance deployment and testing sections, to completely fix the 405 error issue with the validation reply form, to correct favicon relative links and how to add style to larger screen sizing display. His great advice, patient explanations, and suggestions on resources were very welcome and appreciated.
+
 ### Media
  * All images are my own photographs
 
